@@ -39,9 +39,11 @@
   --honey-dew: hsl(152, 48%, 89%);
   --mimi-pink: hsl(329, 63%, 90%);
   --red-salsa: hsl(0, 79%, 63%);
+  --yellow: rgb(255,199,20);
   --sapphire: hsl(211, 100%, 35%);
   --manatee: hsl(219, 14%, 60%);
   --white: hsl(0, 0%, 100%);
+
 
   --gradient: linear-gradient(to top, var(--alice-blue-2), var(--alice-blue-3));
 
@@ -73,7 +75,7 @@
    * spacing
    */
 
-  --section-padding: 50px;
+  --section-padding: 80px;
 
   /**
    * radius
@@ -172,7 +174,8 @@ button, a { transition: var(--transition); }
 
 .btn {
   position: relative;
-  background: var(--background, var(--carolina-blue));
+  background: var(--background, var(--yellow));
+  /* background: var(--background, var(--carolina-blue)); */
   color: var(--color, var(--white));
   min-width: var(--width, 40px);
   min-height: var(--height, 40px);
